@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a4ce21491.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="head">
+            <nav>
+                <!-- <img src="img/logo.png" alt="logo" class="logo"> -->
+                 <p><span>S</span>ayista</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li> 
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span> Sayista Yazdani</span></h1>
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello, I'm <span>Sayista Yazdani</span>, currently pursuing my master's degree in computer application at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY. I'm dedicated web developer with a passion for crafting intuitive and user-friendly digital experiences. With a strong foundation in Java, C#, HTML, CSS and JavaScript, bootstrap framework. I've successfully delivered numerous projects that showcase my problem-solving skills and attention to detail. When I'm not coding, you can find me exploring new technologies or hiking with friends. I'm excited to collaborate and bring innovative ideas to life."</p>
+
+                    <div class="tab-titles"> 
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Responsive Web Development</span><br>HTML5 <br> CSS3 <br> Bootstrap Framework <br> JavaScript</li>
+                            <li><span>Programming Language</span><br>Java <br>C#</li>
+                            <li><span>Database</span><br>SQl <br> 
+                            Mysql</li>
+                            <li><span>Tools</span><br>Git And Github <br>Figma <br>Adobe Photoshop
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2025 - Pursuing</span><br>MCA From SRMIST
+                            <li><span>2023</span><br>BCA From Maulana Mazharul Haque Arabic & Percian University, Patna</li>
+                            <li><span>2019</span><br>Intermediate From VNS College Narma</li>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May-2024</span><br>Internship From OCTANET, Domain - Web Development</li>
+                         
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in creating tailored websites that meet the unique needs of your business. Whether it's a sleek corporate site, an engaging e-commerce platform, or a personal blog, I build responsive, SEO-friendly websites that ensure a seamless user experience across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>I offer a holistic approach to UI/UX design, creating digital products that are not only visually appealing but also provide a seamless and engaging user experience. My design process is centered around understanding your users' needs and aligning them with your business goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I create high-performance, feature-rich mobile applications tailored to your business needs. Whether it's an iOS, Android, or cross-platform app, I design and develop user-friendly apps that provide a seamless experience across devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/matrimony.png" alt="">
+                    <div class="layer">
+                        <h3>TECH_TS Landing Page Project</h3>
+                        <p>The TECH_TS landing page is a sleek, modern interface designed to showcase the company’s innovative solutions in the tech industry.
+                        </p>
+<br>
+                        <h4>What I Did: </h4>
+                        <br>
+                        <p>Designed a clean, modern, and user-friendly interface.
+                        </p>
+                        <p>Integrated custom CSS animations.
+                        </p>
+                        <p>Focused on optimizing performance.</p>
+                        <div> <a href="https://github.com/Abhi0036/Landing_page"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://abhi0036.github.io/Landing_page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/todolist.jpg" alt="">
+                    <div class="layer">
+                        <h3>To-Do List Project</h3>
+                        <p>The TO-DO list project is a streamlined, efficient task management tool built entirely with HTML and CSS. This project showcases my ability to create practical, user-friendly web applications with a focus on clean design and functionality.</p>
+
+                        <br>
+                        <h4>What I Did: </h4>
+                        <br>
+                        <p>Interface is clean and straightforward</p>
+                        <p>Responsive Layout</p>
+                        <p>Custom CSS features like hover effects and transitions</p>
+
+                        <div> <a href="https://github.com/Abhi0036/To_Do-List"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://abhi0036.github.io/To_Do-List/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/helicopterpng.png" alt="">
+                    <div class="layer">
+                        <h3>Flying Helicopter Project</h3>
+                        <p>
+                            I make Flying Helicopter using Technology - HTML and CSS This project is mini frontend project where I use Animation Property to enhance functionality.This project showcases my ability to blend cutting-edge design trends with core front-end development skills to create an engaging user experience</p>
+                        <br>
+                        <h4>What I Did: </h4>
+                        <br>
+                        <p>Glassmorphism Design:</p>
+                        <p>Functional and Efficient:</p>
+                        <p>Responsive and Accessible:</p>
+                        <div> <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- -----------contact----------- -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  sayistayazdani1999@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>  8873120581</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100009651030133"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/bhagat029?igsh=MXFnOGp1OXQ4OXJzcQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/abhishek-kumar-111638291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form method="post" action="https://script.google.com/macros/s/AKfycbzaKOh4DDMyYf6IYbNKJkyvu1HGSpP4i1GHvk08_Ni_LodFNjdFL5XVKHBPD_kKYEN7/exec" name="contact-form">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>@Copyright ©2024 created by Sayista Yazdani | all rights reserved </p>
+        </div>
+     </div>
+
+  <script src="script.js"></script>
+ 
+</body>
+
+</html>
