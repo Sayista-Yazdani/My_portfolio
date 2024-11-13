@@ -10,15 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
 </head>
 
 <body>
     <div id="header">
         <div class="head">
-            <nav>
-                <!-- <img src="img/logo.png" alt="logo" class="logo"> -->
+            <nav data-aos="fade-down">
+             
                  <p><span>S</span>ayista</p>
-                <ul id="sidemenu">
+                <ul id="sidemenu" >
                     <li><a href="#header">Home</a></li> 
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
@@ -40,10 +41,10 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1">
+                <div class="about-col-1"  data-aos="fade-left">
                     <img src="image/p1.jpg" alt="">
                 </div>
-                <div class="about-col-2">
+                <div class="about-col-2" data-aos="fade-right">
                     <h1 class="sub-title">About Me</h1>
                     <p>"Hello, I'm <span>Sayista Yazdani</span>, currently pursuing my master's degree in computer application at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY. I'm dedicated web developer with a passion for crafting intuitive and user-friendly digital experiences. With a strong foundation in Java, C#, HTML, CSS and JavaScript, bootstrap framework. I've successfully delivered numerous projects that showcase my problem-solving skills and attention to detail. When I'm not coding, you can find me exploring new technologies or hiking with friends. I'm excited to collaborate and bring innovative ideas to life."</p>
 
@@ -88,7 +89,7 @@
         </div>
     </div>
     <!-- ----------services------- -->
-    <div id="services">
+    <div id="services" data-aos="fade-left">
         <div class="container">
             <h1 class="sub-title">My Services</h1> 
             <div class="services-list">
@@ -115,7 +116,7 @@
     </div>
 
     <!-- ------------portfolio------------- -->
-     <div id="portfolio">
+     <div id="portfolio"data-aos="fade-right">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
@@ -187,7 +188,7 @@
 
      <!-- -----------contact----------- -->
 
-     <div id="contact">
+     <div id="contact" data-aos="fade-left">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -199,7 +200,7 @@
                         <a href="https://www.instagram.com/si.ya2336/"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/sayista-yazdani-465769215"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="img/Resume.pdf" download class="btn btn2">Download CV</a>
+                    <a href="image/Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form method="post" action="https://script.google.com/macros/s/AKfycbzaKOh4DDMyYf6IYbNKJkyvu1HGSpP4i1GHvk08_Ni_LodFNjdFL5XVKHBPD_kKYEN7/exec" name="contact-form">
@@ -218,6 +219,15 @@
             <p>@Copyright ©2024 created by Sayista Yazdani | all rights reserved </p>
         </div>
      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600, // Animation duration
+            easing: 'ease-in-out', // Easing function
+            once: true, // Whether animation should happen only once - while scrolling down
+        });
+    </script>
 
   <script src="script.js"></script>
  
