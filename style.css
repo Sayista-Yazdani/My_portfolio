@@ -454,12 +454,12 @@ nav .fas{
         overflow-x: hidden;
     }
     #header{
-        background-image: url(img/backg2.jpg);
+        background-image: url(image/back2.jpg);
         object-fit: cover;
     }
 
     .header-text{
-        margin-top: 100%;
+        margin-top: 80%;
         font-size: 16px;
     }
     .header-text h1{
