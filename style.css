@@ -46,11 +46,12 @@ body {
     border-radius: 10px;
 }
 
-nav p,nav p span {
-    width: 80px;
+nav p {
+    width: 85px;
     text-shadow: 2px 3px #575454;
     font-family: "Caveat", cursive;
     font-size: 30px;
+    text-align: center;
 
 }
 nav p span{
@@ -452,6 +453,7 @@ nav .fas{
 @media only screen and (max-width:650px){
     *{
         overflow-x: hidden;
+        font-size:97%;
     }
     #header{
         background-image: url(image/backl3.jpg);
@@ -469,6 +471,18 @@ nav .fas{
         display: block;
         font-size: 25px;
     }
+
+     nav p{
+        width: 85px;
+        text-shadow: 2px 3px #575454;
+        font-family: "Caveat", cursive;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    nav p span{
+    font-size: 47px;  
+}
     nav ul{
         background: #ff004f;
         position:fixed;
