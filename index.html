@@ -9,29 +9,31 @@
     <script src="https://kit.fontawesome.com/6a4ce21491.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
 </head>
 
 <body>
     <div id="header">
-        <div class="head">
-            <nav>
-                 <p><span>S</span>ayista</p>
+        <div class="head"   data-aos="fade-down">
+            <nav >
+                <p><span>S</span>ayista</p>
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li> 
+                    <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                    <i class="fa-solid fa-xmark fas faicon" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars fas faicon" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p  data-aos="fade-left">UI/UX Designer</p>
-                <h1  data-aos="fade-right">Hi, I'm <span> Sayista Yazdani</span></h1>
-                
+                <p data-aos="fade-left">UI/UX Designer</p>
+                <h1 data-aos="fade-right">Hi, I'm <span> Sayista Yazdani</span></h1>
+
             </div>
         </div>
 
@@ -40,27 +42,34 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1"  data-aos="fade-left">
+                <div class="about-col-1" data-aos="fade-left">
                     <img src="image/p1.jpg" alt="">
                 </div>
                 <div class="about-col-2" data-aos="fade-right">
                     <h1 class="sub-title">About Me</h1>
-                    <p>"Hello, I'm <span>Sayista Yazdani</span>, currently pursuing my master's degree in computer application at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY. I'm dedicated web developer with a passion for crafting intuitive and user-friendly digital experiences. With a strong foundation in Java, C#, HTML, CSS and JavaScript, bootstrap framework. I've successfully delivered numerous projects that showcase my problem-solving skills and attention to detail. When I'm not coding, you can find me exploring new technologies or hiking with friends. I'm excited to collaborate and bring innovative ideas to life."</p>
+                    <p>"Hello, I'm <span>Sayista Yazdani</span>, currently pursuing my master's degree in computer
+                        application at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY. I'm dedicated web developer with a
+                        passion for crafting intuitive and user-friendly digital experiences. With a strong foundation
+                        in Java, C#, HTML, CSS and JavaScript, bootstrap framework. I've successfully delivered numerous
+                        projects that showcase my problem-solving skills and attention to detail. When I'm not coding,
+                        you can find me exploring new technologies or hiking with friends. I'm excited to collaborate
+                        and bring innovative ideas to life."</p>
 
-                    <div class="tab-titles"> 
-                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links faicon " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links faicon" onclick="opentab('education')">Education</p>
+                        <p class="tab-links faicon" onclick="opentab('experience')">Experience</p>
 
                     </div>
 
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
-                            <li><span>Responsive Web Development</span><br>HTML5 <br> CSS3 <br> Bootstrap Framework <br> JavaScript</li>
+                            <li><span>Responsive Web Development</span><br>HTML5 <br> CSS3 <br> Bootstrap Framework <br>
+                                JavaScript</li>
                             <li><span>Programming Language</span><br>Java <br>C#</li>
-                            <li><span>Database</span><br>SQl <br> 
-                            Mysql</li>
+                            <li><span>Database</span><br>SQl <br>
+                                Mysql</li>
                             <li><span>Tools</span><br>Git And Github <br>Figma <br>Adobe Photoshop
                             </li>
                         </ul>
@@ -69,7 +78,8 @@
                     <div class="tab-contents" id="education">
                         <ul>
                             <li><span>2023-2025 - Pursuing</span><br>MCA From SRMIST
-                            <li><span>2023</span><br>BCA From Maulana Mazharul Haque Arabic & Percian University, Patna</li>
+                            <li><span>2023</span><br>BCA From Maulana Mazharul Haque Arabic & Percian University, Patna
+                            </li>
                             <li><span>2019</span><br>Intermediate From VNS College Narma</li>
                             </li>
                         </ul>
@@ -79,10 +89,10 @@
                     <div class="tab-contents" id="experience">
                         <ul>
                             <li><span>May-2024</span><br>Internship From OCTANET, Domain - Web Development</li>
-                         
+
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -90,24 +100,30 @@
     <!-- ----------services------- -->
     <div id="services" data-aos="fade-left">
         <div class="container">
-            <h1 class="sub-title">My Services</h1> 
+            <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>I specialize in creating tailored websites that meet the unique needs of your business. Whether it's a sleek corporate site, an engaging e-commerce platform, or a personal blog, I build responsive, SEO-friendly websites that ensure a seamless user experience across all devices.</p>
+                    <p>I specialize in creating tailored websites that meet the unique needs of your business. Whether
+                        it's a sleek corporate site, an engaging e-commerce platform, or a personal blog, I build
+                        responsive, SEO-friendly websites that ensure a seamless user experience across all devices.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop"></i>
                     <h2>UI/UX</h2>
-                    <p>I offer a holistic approach to UI/UX design, creating digital products that are not only visually appealing but also provide a seamless and engaging user experience. My design process is centered around understanding your users' needs and aligning them with your business goals.</p>
+                    <p>I offer a holistic approach to UI/UX design, creating digital products that are not only visually
+                        appealing but also provide a seamless and engaging user experience. My design process is
+                        centered around understanding your users' needs and aligning them with your business goals.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store-ios"></i>
                     <h2>App Design</h2>
-                    <p>I create high-performance, feature-rich mobile applications tailored to your business needs. Whether it's an iOS, Android, or cross-platform app, I design and develop user-friendly apps that provide a seamless experience across devices.</p>
+                    <p>I create high-performance, feature-rich mobile applications tailored to your business needs.
+                        Whether it's an iOS, Android, or cross-platform app, I design and develop user-friendly apps
+                        that provide a seamless experience across devices.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
@@ -115,7 +131,7 @@
     </div>
 
     <!-- ------------portfolio------------- -->
-     <div id="portfolio" data-aos="fade-right">
+    <div id="portfolio" data-aos="fade-right">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
@@ -123,11 +139,13 @@
                     <img src="image/matrimony.png" alt="Metrimony Website">
                     <div class="layer">
                         <h3>Metrimony Website Project</h3>
-                        <p>Matrimony Match is a web-based platform designed to connect individuals seeking a life partner. The website aims to provide a secure, user-friendly, and comprehensive matchmaking experience.
+                        <p class="faicon">Matrimony Match is a web-based platform designed to connect individuals seeking a life
+                            partner. The website aims to provide a secure, user-friendly, and comprehensive matchmaking
+                            experience.
                             <br> Create a platform for individuals to find compatible life partners.
 
                         </p>
-<br>
+                        <br>
                         <h4>What I Did: </h4>
                         <br>
                         <p>Designed a clean, modern, and user-friendly interface.
@@ -135,77 +153,102 @@
                         <p>Responsive design for mobile and tablet devices.
                         </p>
                         <p>Focused on optimizing performance.</p>
-                        <div> <a href="https://github.com/Sayista-Yazdani/Matrimony_website"><i class="fa-brands fa-square-github"></i></a>
-                            <a href="https://sayista-yazdani.github.io/Matrimony_website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                        <div class="faicon"> 
+                            <a href="https://github.com/Sayista-Yazdani/Matrimony_website"><i
+                                    class="fa-brands fa-square-github faicon"></i></a>
+                            <a href="https://sayista-yazdani.github.io/Matrimony_website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square faicon"></i></a>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="work">
                     <img src="image/helicopterpng.png" alt="Flying Helicopter">
                     <div class="layer">
                         <h3>Flying Helicopter Project</h3>
-                        <p>
-                            I make Flying Helicopter using Technology - HTML and CSS This project is mini frontend project where I use Animation Property to enhance functionality.This project showcases my ability to blend cutting-edge design trends with core front-end development skills to create an engaging user experience</p>
+                        <p class="faicon">
+                            I make Flying Helicopter using Technology - HTML and CSS This project is mini frontend
+                            project where I use Animation Property to enhance functionality.This project showcases my
+                            ability to blend cutting-edge design trends with core front-end development skills to create
+                            an engaging user experience</p>
                         <br>
                         <h4>What I Did: </h4>
                         <br>
                         <p>Integrated custom CSS animations.</p>
                         <p>Functional and Efficient.</p>
                         <p>Animation and Accessible.</p>
-                        <div> <a href="https://github.com/Sayista-Yazdani/Flying_Helicoptor_Animation"><i class="fa-brands fa-square-github"></i></a>
-                            <a href="https://sayista-yazdani.github.io/Flying_Helicoptor_Animation/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                        <div class="faicon"> <a href="https://github.com/Sayista-Yazdani/Flying_Helicoptor_Animation"><i
+                                    class="fa-brands fa-square-github faicon"></i></a>
+                            <a href="https://sayista-yazdani.github.io/Flying_Helicoptor_Animation/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square faicon"></i></a>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="work">
                     <img src="image/gym.png" alt="Gym Website">
                     <div class="layer">
                         <h3>Gym Website Project</h3>
-                        <p>Designed and developed a cutting-edge, responsive gym website leveraging HTML5, CSS3, and JavaScript technologies to deliver an immersive user experience.
-</p>
+                        <p class="faicon">Designed and developed a cutting-edge, responsive gym website leveraging HTML5, CSS3, and
+                            JavaScript technologies to deliver an immersive user experience.
+                        </p>
 
                         <br>
                         <h4>What I Did: </h4>
                         <br>
                         <p>Smooth animations using AOS (Animate On Scroll) library for captivating scrolling effects</p>
                         <p>Fully responsive design for seamless functionality across various devices and screen sizes
-</p>
+                        </p>
                         <p>Created an engaging and interactive website with smooth animations
-</p>
+                        </p>
 
-                        <div> <a href="https://github.com/Sayista-Yazdani/Gym_Website"><i class="fa-brands fa-square-github"></i></a>
-                            <a href="https://sayista-yazdani.github.io/Gym_Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
-                       
+                        <div class="faicon"> 
+                            <a href="https://github.com/Sayista-Yazdani/Gym_Website"><i
+                                    class="fa-brands fa-square-github faicon"></i></a>
+                            <a href="https://sayista-yazdani.github.io/Gym_Website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square faicon"></i></a>
+                        </div>
+
                     </div>
                 </div>
-                
+
             </div>
 
             <a href="#" class="btn">See more</a>
         </div>
-     </div>
+    </div>
 
-     <!-- -----------contact----------- -->
+    <!-- -----------contact----------- -->
 
-     <div id="contact" data-aos="fade-left">
+    <div id="contact" data-aos="fade-left" >
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>  sayistayazdani1999@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>  8873120581</p>
-                    <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href="https://www.instagram.com/si.ya2336/"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/sayista-yazdani-465769215"><i class="fa-brands fa-linkedin"></i></a>
+                    <div>
+                        <i class="fa-solid fa-paper-plane faicon"></i>
+                        <p>sayistayazdani1999@gmail.com</p>
                     </div>
+                    <div>
+                        <i class="fa-solid fa-square-phone faicon"></i>
+                        <p> 8873120581</p>
+                    </div>
+                    <div class="social-icons"> <a href=""><i class="fa-brands fa-twitter-square faicon"></i></a>
+                        <a href="https://www.instagram.com/si.ya2336/"><i class="fa-brands fa-instagram faicon"></i></a>
+                        <a href="https://www.linkedin.com/in/sayista-yazdani-465769215"><i class="fa-brands fa-linkedin faicon"></i></a></div>
+                 
+
+
                     <a href="image/Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form method="post" action="https://script.google.com/macros/s/AKfycbzaKOh4DDMyYf6IYbNKJkyvu1HGSpP4i1GHvk08_Ni_LodFNjdFL5XVKHBPD_kKYEN7/exec" name="contact-form">
+                    <form method="post"
+                        action="https://script.google.com/macros/s/AKfycbzaKOh4DDMyYf6IYbNKJkyvu1HGSpP4i1GHvk08_Ni_LodFNjdFL5XVKHBPD_kKYEN7/exec"
+                        name="contact-form">
                         <input type="text" name="Name" placeholder="Enter Your Name" required>
                         <input type="email" name="Email" placeholder="Enter Your Email" required>
                         <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                 </div>
@@ -215,7 +258,7 @@
         <div class="copyright">
             <p>@Copyright ©2024 created by Sayista Yazdani | all rights reserved </p>
         </div>
-     </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
     <script>
@@ -226,8 +269,8 @@
         });
     </script>
 
-  <script src="script.js"></script>
- 
+    <script src="script.js"></script>
+
 </body>
 
 </html>
