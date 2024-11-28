@@ -612,10 +612,11 @@ nav .fas{
         top: 0;
         right: -200px;
         width: 200px;
-        height: 100vh;
+        /* height: 100vh; */
         padding-left: 50px;
         z-index: 2;
         transition: right 0.3s linear;
+         border-radius: 0px 0 0 31px;
       
     }
     nav ul li{
