@@ -124,24 +124,105 @@ nav ul li a:hover::after {
     border-radius: 15px;
 }
 
+
 .header-text {
     margin-top: 20%;
     font-size: 30px;
     background-color: #15121295;
     width: 70%;
     padding: 25px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    overflow: hidden;
    
 }
 
+
+
 .header-text h1 {
-    font-size: 60px;
-    margin-top: 20px;
+    /* font-size: 60px;
+    margin-top: 20px; */
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
 
 }
 
-.header-text h1 span {
-    color: #ff004f;
+
+/* Snake animation box */
+.header-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+    z-index: 0;
+    animation: snake 4s linear infinite;
 }
+
+/* Keyframes for the snake animation */
+@keyframes snake {
+    0% {
+        border-top: 3px solid #c57b3f;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-left: 3px solid transparent;
+    }
+    25% {
+        border-top: 3px solid #ff9100;
+        border-right: 3px solid #ff00b3;
+        border-bottom: 3px solid transparent;
+        border-left: 3px solid transparent;
+    }
+    50% {
+        border-top: 3px solid transparent;
+        border-right: 3px solid #ffe100;
+        border-bottom: 3px solid #275328;
+        border-left: 3px solid transparent;
+    }
+    75% {
+        border-top: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid #7d0d7b;
+        border-left: 3px solid #172330;
+    }
+    100% {
+        border-top: 3px solid #59626b;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-left: 3px solid transparent;
+    }
+}
+
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+.txt-light{
+    color: transparent;
+    background-image: conic-gradient(from var(--rotate) at 29% 10%, #fff 40%, #da5e85, #e63e73a9 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rotateLight 3s ease-in-out infinite alternate ;
+}
+
+
+@keyframes rotateLight{
+    from { --rotate:0.25turn}
+
+    to { --rotate:-0.25turn}
+}
+
 
 
 .faicon{
