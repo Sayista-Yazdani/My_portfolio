@@ -578,6 +578,7 @@ nav .fas{
     #header{
         background-image: url(image/back2.jpg);
         object-fit: cover;
+        height: 52vh;
     }
 
     .header-text{
