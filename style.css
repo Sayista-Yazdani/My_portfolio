@@ -666,6 +666,10 @@ nav .fas{
 
 @media only screen and (max-width:400px){
 
+ .header-text{
+        margin-top: 15%;
+ }
+    
     .tab-links{
         font-size: 15.3px;
         margin-right: 16px;
