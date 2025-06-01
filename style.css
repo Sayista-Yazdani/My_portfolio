@@ -398,7 +398,7 @@ color:#b54769;
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+/*     background: #ff004f; */
     transform: translateY(-10px);
 }
 
