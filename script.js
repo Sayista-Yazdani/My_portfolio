@@ -1,3 +1,30 @@
+const bubbleContainer = document.getElementById('bubbleContainer');
+
+function createBubble() {
+  const bubble = document.createElement('div');
+  bubble.classList.add('bubble');
+
+  const size = Math.random() * 12 + 6;
+  bubble.style.width = `${size}px`;
+  bubble.style.height = `${size}px`;
+
+  bubble.style.left = `${Math.random() * 100}%`;
+  bubble.style.animationDuration = `${Math.random() * 4 + 3}s`;
+
+  bubbleContainer.appendChild(bubble);
+
+  setTimeout(() => {
+    bubble.remove();
+  }, 7000);
+}
+
+// Generate bubbles continuously
+setInterval(createBubble, 300);
+
+
+
+
+
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
 
