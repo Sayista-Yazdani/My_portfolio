@@ -309,6 +309,9 @@ color:#b54769;
     color: #fff;
 }
 
+.tab-titles p {
+  border-bottom: 4px solid #b54769;
+}
 
 
 .tab-titles{
