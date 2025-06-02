@@ -48,7 +48,7 @@ body {
   bottom: -20px;
   width: 10px;
   height: 10px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   animation: riseBubble linear;
   opacity: 0.5;
@@ -601,6 +601,54 @@ form .btn2{
     margin-top: 20px; 
 }
 
+
+
+.work {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.work:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(255, 0, 79, 0.3);
+}
+
+.layer h3, .layer p {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.work:hover .layer h3, 
+.work:hover .layer p {
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+
+
+
+/* Parallax-like scroll effect */
+.parallax-bg img {
+  will-change: transform;
+  transform: scale(1.02);
+  transition: transform 1.2s ease;
+}
+.parallax-bg:hover img {
+  transform: scale(1.08) translateY(-5px);
+}
+
+/* Pulsing animation for CTA buttons */
+.pulse {
+  animation: pulse-glow 2s infinite;
+}
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 15px #ff004f; }
+  50% { box-shadow: 0 0 25px #ff004f, 0 0 35px #ff004f; }
+  100% { box-shadow: 0 0 15px #ff004f; }
+}
+
+
+
+
 /* --------CSS for small screen------- */
 
 nav .fas{
@@ -614,7 +662,7 @@ nav .fas{
       
     }
     #header{
-        background-image: url(image/back2.jpg);
+/*         background-image: url(image/back2.jpg); */
         object-fit: cover;
         height: 52vh;
     }
@@ -701,48 +749,7 @@ nav .fas{
     }
 }
 
-.work {
-    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
 
-.work:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 10px 30px rgba(255, 0, 79, 0.3);
-}
-
-.layer h3, .layer p {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.work:hover .layer h3, 
-.work:hover .layer p {
-    transform: translateY(-10px);
-    opacity: 1;
-}
-
-
-
-
-/* Parallax-like scroll effect */
-.parallax-bg img {
-  will-change: transform;
-  transform: scale(1.02);
-  transition: transform 1.2s ease;
-}
-.parallax-bg:hover img {
-  transform: scale(1.08) translateY(-5px);
-}
-
-/* Pulsing animation for CTA buttons */
-.pulse {
-  animation: pulse-glow 2s infinite;
-}
-@keyframes pulse-glow {
-  0% { box-shadow: 0 0 15px #ff004f; }
-  50% { box-shadow: 0 0 25px #ff004f, 0 0 35px #ff004f; }
-  100% { box-shadow: 0 0 15px #ff004f; }
-}
 
 
 @media only screen and (max-width:400px){
