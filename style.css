@@ -766,5 +766,10 @@ nav .fas{
         font-size: 15.3px;
         margin-right: 16px;
     }
+
+     .copyright{
+        font-size: 12px;
+        padding: 8px;
+    }
   
 }
