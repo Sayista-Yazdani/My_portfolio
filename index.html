@@ -4,15 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayista Yazdani | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6a4ce21491.js" crossorigin="anonymous"></script>
+
+
+    <title>Sayista Yazdani - UI/UX Designer & Web Developer Portfolio</title>
+    <meta name="description" content="Sayista Yazdani is a passionate UI/UX Designer and Web Developer specializing in modern, responsive websites and creative digital experiences.">
+    <meta name="keywords" content="Sayista Yazdani, UI/UX Designer, Web Developer, Frontend Developer, Portfolio, HTML, CSS, JavaScript, Bootstrap, Figma">
+    <meta name="author" content="Sayista Yazdani">
+    <link rel="canonical" href="https://sayista-yazdani.github.io/UI-UX-Designer-Web-Developer-Portfolio/"/>
+    
+
+    <!-- Open Graph / Social Media Tags -->
+    <meta property="og:title" content="Sayista Yazdani - UI/UX Designer & Web Developer">
+    <meta property="og:description" content="Explore the creative portfolio of Sayista Yazdani – passionate about intuitive digital experiences and modern web design.">
+
+    <meta property="og:image" content="https://sayista-yazdani.github.io/image/p1.jpg"> <!-- Replace with your actual hosted image URL -->
+    <meta property="og:url" content="https://sayista-yazdani.github.io/UI-UX-Designer-Web-Developer-Portfolio/">
+
+    <meta property="og:type" content="website">
+
+
+    <!-- Favicon  -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a4ce21491.js" crossorigin="anonymous"></script>
+
+    <!-- CSS & AOS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sayista Yazdani",
+  "url": "https://sayista-yazdani.github.io/UI-UX-Designer-Web-Developer-Portfolio/",
+  "image": "https://sayista-yazdani.github.io/image/p1.jpg",
+  "jobTitle": "UI/UX Designer & Web Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "RSY Manpower"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "SRM Institute of Science and Technology"
+  },
+  "sameAs": [
+    "https://github.com/Sayista-Yazdani",
+    "https://www.linkedin.com/in/sayista-yazdani-465769215",
+    "https://www.instagram.com/si.ya2336/"
+  ],
+  "knowsAbout": [
+    "UI/UX Design",
+    "Web Development",
+    "Java",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "Figma",
+    "PHP",
+    "MySQL"
+  ]
+}
+</script>
+
+
+
 </head>
 
 <body>
@@ -23,18 +90,18 @@
                 <p><span>P</span>ortfolio</p>
                 <ul id="sidemenu">
                     <!-- <li><a href="#header">Home</a></li> -->
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark fas faicon" onclick="closemenu()"></i>
+                    <li><a href="#about" aria-label="Navigate to About section">About</a></li>
+                    <li><a href="#services" aria-label="Navigate to Services section">Services</a></li>
+                    <li><a href="#portfolio" aria-label="Navigate to Portfolio Projects section">Projects</a></li>
+                    <li><a href="#contact" aria-label="Navigate to Contact section">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas faicon" aria-label="Close navigation menu"  onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars fas faicon" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars fas faicon" aria-label="Open navigation menu" onclick="openmenu()"></i>
             </nav>
         
 
             <div class="header-text">
-                <p data-aos="fade-left">UI/UX Designer</p>
+                <p data-aos="fade-left">Web Developer</p>
                 <h1 data-aos="fade-right">Hi, I'm <span class="txt-light"> Sayista Yazdani</span></h1>
 
             </div>
@@ -46,10 +113,10 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1" data-aos="fade-left">
-                    <img src="image/p1.jpg" alt="">
+                    <img src="image/p1.jpg" alt="Sayista Yazdani Profile Picture"  loading="eager">
                 </div>
                 <div class="about-col-2" data-aos="fade-right">
-                    <h1 class="sub-title">About Me</h1>
+                    <h2 class="sub-title">About Me</h2>
                     <p>"Hello, I'm <span>Sayista Yazdani</span>, currently pursuing my master's degree in computer
                         application at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY. I'm dedicated web developer with a
                         passion for crafting intuitive and user-friendly digital experiences. With a strong foundation
@@ -104,13 +171,13 @@
 <!-- Enhanced Portfolio Section -->
 <section id="portfolio">
   <div class="container">
-    <h1 class="sub-title" data-aos="fade-up">What I’ve Built</h1>
-    <h2 class="portfolio-tagline" data-aos="zoom-in" data-aos-delay="100">Coding Creations: Web Projects</h2>
+    <h2 class="sub-title" data-aos="fade-up">What I’ve Built</h2>
+    <h3 class="portfolio-tagline" data-aos="zoom-in" data-aos-delay="100">Coding Creations: Web Projects</h3>
     <div class="work-list">
 
       <!-- Matrimony -->
       <div class="work enhanced parallax-bg" data-aos="flip-right" data-aos-delay="150">
-        <img src="image/matrimony.png" alt="Matrimony Website">
+        <img src="image/matrimony.png" alt="Matrimony Website" loading="lazy">
         <div class="layer glass">
           <h3 class="glow">Matrimony Website</h3>
           <p>Secure and modern matchmaking platform with a responsive and intuitive design.</p>
@@ -123,7 +190,7 @@
 
       <!-- Helicopter -->
       <div class="work enhanced parallax-bg" data-aos="flip-left" data-aos-delay="200">
-        <img src="image/helicopter.png" alt="Flying Helicopter">
+        <img src="image/helicopter.png" alt="Flying Helicopter" loading="lazy">
         <div class="layer glass">
           <h3 class="glow">Flying Helicopter</h3>
           <p>Mini frontend project using HTML & CSS animations for playful, realistic motion.</p>
@@ -136,7 +203,7 @@
 
       <!-- Gym -->
       <div class="work enhanced parallax-bg" data-aos="flip-right" data-aos-delay="250">
-        <img src="image/gym.png" alt="Gym Website">
+        <img src="image/gym.png" alt="Gym Website" loading="lazy">
         <div class="layer glass">
           <h3 class="glow">Gym Website</h3>
           <p>Responsive, performance-focused fitness site with immersive AOS animations.</p>
@@ -149,7 +216,7 @@
 
     <!-- Figma Splash Screen -->
       <div class="work enhanced parallax-bg" data-aos="flip-left" data-aos-delay="300">
-        <img src="image/splash.png" alt="Figma Splash Screen">
+        <img src="image/splash.png" alt="Figma Splash Screen" loading="lazy">
         <div class="layer glass">
           <h3 class="glow">Figma Splash Screen</h3>
          <p>Designed a sleek splash screen in Figma with smooth fade-ins, slide animations, and custom shapes like blobs and waves—crafted to impress at first glance.</p>
@@ -161,7 +228,7 @@
         
       <!-- Figma CRM -->
       <div class="work enhanced parallax-bg" data-aos="fade-in" data-aos-delay="300">
-        <img src="image/crm.png" alt="Figma Recruit CRM">
+        <img src="image/crm.png" alt="Figma Recruit CRM" loading="lazy">
         <div class="layer glass">
           <h3 class="glow">Figma Recruit CRM</h3>
           <p>Redesigned login/signup pages in Figma for clean, accessible UI/UX flow.</p>
@@ -181,32 +248,38 @@
     
     <div id="services" data-aos="fade-left">
         <div class="container">
-            <h1 class="sub-title">What I Offer</h1>
+            <h2 class="sub-title">What I Offer</h2>
             <div class="services-list">
                 <div class="glow-button pulse">
                     <i class="fa-solid fa-code faicon"></i>
-                    <h2>Web Design</h2>
-                    <p>I offer comprehensive Web Design services that blend creativity with functionality to deliver exceptional user experiences.
-                        Whether you need a brand-new website or a redesign, I focus on creating visually appealing, intuitive, 
-                        and responsive designs that reflect your brand and meet your business objectives.</p>
+                    <h3>Web Design</h3>
+                    <p>
+                    I specialize in crafting modern, responsive websites that combine aesthetic appeal with strategic functionality.
+                    Whether building from scratch or redesigning existing platforms, I focus on delivering intuitive user experiences
+                    that align with brand identity and business goals. My designs are optimized for performance, accessibility, and engagement.
+                    </p>
+
                   
                 </div>
                 <div class="glow-button pulse">
                     <i class="fa-solid fa-crop faicon"></i>
-                    <h2>UI/UX</h2>
-                    <p>I offer a holistic approach to UI/UX design, creating digital products that are not only visually
-                        appealing but also provide a seamless and engaging user experience. My design process is
-                        centered around understanding your users' needs and aligning them with your business goals.</p>
+                    <h3>UI/UX Design</h3>
+                    <p>
+                    I take a user-centered approach to UI/UX design, translating complex ideas into clean, interactive interfaces.
+                    My process involves deep user research, wireframing, prototyping, and usability testing to ensure every product
+                    is both visually compelling and functionally seamless. I aim to enhance user satisfaction while driving measurable results.
+                    </p>
                   
                 </div>
                 <div class="glow-button pulse">
                     <i class="fa-brands fa-app-store-ios faicon"></i>
-                    <h2>Frontend Development</h2>
-                    <p>I offer professional Frontend Development services that focus on delivering intuitive, visually
-                        appealing, and responsive user interfaces. With a deep understanding of modern web technologies
-                        and frameworks.
-                        I ensure your website or application looks great across all devices and platforms.</p>
-                
+                    <h3>Frontend Development</h3>
+                    <p>
+                    I deliver pixel-perfect, scalable frontend solutions using modern frameworks and best practices.
+                    My development work ensures cross-browser compatibility, mobile responsiveness, and smooth interactions.
+                    I bridge the gap between design and technology to bring user interfaces to life with clean, maintainable code.
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -218,22 +291,21 @@
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+                    <h2 class="sub-title">Contact Me</h2>
                     <div>
                         <i class="fa-solid fa-paper-plane faicon"></i>
                         <p>sayistayazdani1999@gmail.com</p>
                     </div>
-                    <div>
-                        <i class="fa-solid fa-square-phone faicon"></i>
-                        <p>+91 8873120581</p>
+                   
+                    <div class="social-icons"> 
+                        <a href="https://github.com/Sayista-Yazdani" aria-label="Visit Sayista Yazdani's GitHub profile"><i class="fa-brands fa-github-square faicon"></i></a>
+                        <a href="https://www.instagram.com/si.ya2336/"   aria-label="Visit Sayista Yazdani's Instagram profile"><i class="fa-brands fa-instagram faicon"></i></a>
+                        <a href="https://www.linkedin.com/in/sayista-yazdani-465769215"  aria-label="Visit Sayista Yazdani's LinkedIn profile"><i class="fa-brands fa-linkedin faicon"></i></a>
                     </div>
-                    <div class="social-icons"> <a href=""><i class="fa-brands fa-twitter-square faicon"></i></a>
-                        <a href="https://www.instagram.com/si.ya2336/"><i class="fa-brands fa-instagram faicon"></i></a>
-                        <a href="https://www.linkedin.com/in/sayista-yazdani-465769215"><i class="fa-brands fa-linkedin faicon"></i></a></div>
                  
 
 
-                    <a href="image/Resume.pdf" download class="btn btn2 glow-button pulse">Download CV</a>
+                    <a href="image/Resume.pdf" download class="btn btn2 glow-button pulse"   aria-label="Download Sayista Yazdani's resume in PDF format">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form method="post"
