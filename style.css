@@ -177,6 +177,15 @@ nav ul li a:hover::after {
 }
 
 
+.header-text p {
+
+    font-size: .8 rem;
+    color: #fff;
+    text-align: left;
+
+}
+
+
 
 .header-text h1 {
     /* font-size: 60px;
@@ -184,7 +193,7 @@ nav ul li a:hover::after {
     position: relative;
     z-index: 1;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     color: #fff;
     text-align: center;
 
@@ -389,7 +398,7 @@ color:#b54769;
     font-size: 35px;
     margin-bottom: 22px;
 }
-.services-list div h2{
+.services-list div h3{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -653,6 +662,8 @@ form .btn2{
 
 
 
+
+
 /* --------CSS for small screen------- */
 
 nav .fas{
@@ -660,16 +671,22 @@ nav .fas{
 }
 
 @media only screen and (max-width:650px){
-    *{
-        overflow-x: hidden;
-        font-size: 97%;
-      
+     *{
+     overflow-x: hidden;
+     font-size: 97%; 
     }
+
     #header{
-/*         background-image: url(image/back2.jpg); */
+   /*   background-image: url(image/back2.jpg); */
         object-fit: cover;
         height: 52vh;
     }
+
+    #header {
+    background-size: cover;
+   background-position: center;
+   }
+
 
     .header-text{
         margin-top: 12%;
@@ -749,7 +766,7 @@ nav .fas{
     }
     .copyright{
         font-size: 12px;
-        padding: 9px;
+        padding: 20px;
     }
 }
 
