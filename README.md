@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! I'm **Sayista Yazdani**, a passionate UI/UX designer and web developer who loves crafting responsive, user-friendly digital experiences. This portfolio showcases my creative and technical skills through a collection of frontend and UI/UX projects.
 
 🔗 **Live Website**:  
-[https://sayista-yazdani.github.io/UI-UX-Designer-Web-Developer-Portfolio/](https://sayista-yazdani.github.io/UI-UX-Designer-Web-Developer-Portfolio/)
+[https://sayista-yazdani.github.io/Web-Developer-Portfolio/](https://sayista-yazdani.github.io/Web-Developer-Portfolio/)
 
 ---
 
