@@ -54,7 +54,7 @@ Feel free to reach out for collaboration, internships, or just to say hello!
 - ✉️ Email: [sayistayazdani1999@gmail.com](mailto:sayistayazdani1999@gmail.com)
 - 📞 Phone: +91 8873120581
 - 💼 LinkedIn: [Sayista Yazdani](https://www.linkedin.com/in/sayista-yazdani-465769215)
-- 🌐 Portfolio: [Visit Website](https://sayista-yazdani.github.io/UI-UX-Designer-Web-Developer-Portfolio/)
+- 🌐 Portfolio: [Visit Website](https://sayista-yazdani.github.io/Web-Developer-Portfolio/)
 
 ---
 
